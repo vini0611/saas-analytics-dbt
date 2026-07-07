@@ -1,0 +1,9 @@
+plan_id,plan_name,plan_type,price_monthly,price_annual,max_users,features
+PLN001,Starter,monthly,49,470,5,"Basic analytics, Email support"
+PLN002,Growth,monthly,149,1430,20,"Advanced analytics, Priority support, API access"
+PLN003,Pro,monthly,349,3350,50,"Full analytics, Dedicated support, API access, Custom reports"
+PLN004,Enterprise,monthly,899,8630,999,"Full analytics, SLA support, API access, Custom reports, SSO"
+PLN005,Starter,annual,49,470,5,"Basic analytics, Email support"
+PLN006,Growth,annual,149,1430,20,"Advanced analytics, Priority support, API access"
+PLN007,Pro,annual,349,3350,50,"Full analytics, Dedicated support, API access, Custom reports"
+PLN008,Enterprise,annual,899,8630,999,"Full analytics, SLA support, API access, Custom reports, SSO"

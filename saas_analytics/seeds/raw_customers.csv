@@ -1,0 +1,101 @@
+customer_id,company_name,industry,country,city,signup_date,plan_type,account_manager
+CUS0001,Acme Corp,Education,UK,London,2022-01-26,Growth,James Patel
+CUS0002,Brightwave Solutions,Fintech,Canada,Toronto,2024-01-25,Starter,Priya Sharma
+CUS0003,CloudNine Tech,SaaS,Singapore,Singapore,2022-02-02,Starter,James Patel
+CUS0004,DataPulse Inc,SaaS,Australia,Sydney,2023-06-02,Growth,Priya Sharma
+CUS0005,EchoSystems,Consulting,Singapore,Singapore,2022-08-14,Growth,Sarah Mitchell
+CUS0006,FlowStack,Media,Canada,Toronto,2023-12-16,Pro,Emma Rodriguez
+CUS0007,GridForce,Logistics,Canada,Toronto,2022-08-09,Starter,Sarah Mitchell
+CUS0008,HorizonAI,Logistics,Singapore,Singapore,2022-04-10,Pro,Priya Sharma
+CUS0009,InnovateCo,SaaS,Germany,Berlin,2024-04-06,Enterprise,Priya Sharma
+CUS0010,JetStream Analytics,Fintech,UK,London,2023-01-23,Growth,Priya Sharma
+CUS0011,KineticData,E-commerce,India,Bangalore,2023-08-15,Starter,Sarah Mitchell
+CUS0012,LunaMetrics,Education,Australia,Sydney,2024-03-02,Starter,James Patel
+CUS0013,MindBridge,Education,UK,London,2023-01-25,Enterprise,Emma Rodriguez
+CUS0014,NexusCloud,Logistics,Canada,Toronto,2023-01-15,Growth,Emma Rodriguez
+CUS0015,Optify,Healthcare,UK,London,2023-09-16,Growth,James Patel
+CUS0016,PeakPerformance,Education,Netherlands,Amsterdam,2023-01-24,Growth,Emma Rodriguez
+CUS0017,QuantumLeap,SaaS,USA,New York,2022-08-23,Pro,David Chen
+CUS0018,RapidScale,E-commerce,Germany,Berlin,2022-03-09,Pro,James Patel
+CUS0019,SnapInsights,Consulting,Netherlands,Amsterdam,2023-02-10,Growth,Emma Rodriguez
+CUS0020,TrueNorth,Education,Canada,Toronto,2022-09-10,Pro,Priya Sharma
+CUS0021,UpwardTrend,E-commerce,Singapore,Singapore,2023-01-06,Growth,Priya Sharma
+CUS0022,VelocityHQ,SaaS,Netherlands,Amsterdam,2022-04-04,Starter,James Patel
+CUS0023,WaveAnalytics,Media,Canada,Toronto,2024-03-22,Starter,David Chen
+CUS0024,XcelData,Consulting,Singapore,Singapore,2023-09-03,Growth,Priya Sharma
+CUS0025,YieldForce,Fintech,USA,New York,2023-11-28,Growth,Emma Rodriguez
+CUS0026,ZenithTech,Media,UK,London,2022-10-28,Growth,David Chen
+CUS0027,AlphaStream,Education,USA,New York,2024-01-10,Growth,Priya Sharma
+CUS0028,BetaWorks,Education,UK,London,2024-06-10,Growth,James Patel
+CUS0029,ClearPath,Healthcare,India,Bangalore,2024-02-20,Starter,Priya Sharma
+CUS0030,DeltaDrive,SaaS,India,Bangalore,2023-05-16,Starter,Emma Rodriguez
+CUS0031,EpicData,SaaS,Germany,Berlin,2022-09-03,Growth,Priya Sharma
+CUS0032,FusionTech,Consulting,UK,London,2022-03-29,Starter,Priya Sharma
+CUS0033,GlobalMetrics,Consulting,Canada,Toronto,2022-05-12,Growth,Emma Rodriguez
+CUS0034,HyperScale,E-commerce,Singapore,Singapore,2022-08-05,Growth,David Chen
+CUS0035,ImpactIO,Consulting,India,Bangalore,2023-03-25,Starter,James Patel
+CUS0036,JunctionAI,Logistics,Australia,Sydney,2022-03-07,Starter,Priya Sharma
+CUS0037,KaleidoSoft,E-commerce,Australia,Sydney,2023-08-26,Starter,Sarah Mitchell
+CUS0038,LaunchPad,Fintech,USA,New York,2022-08-23,Starter,Emma Rodriguez
+CUS0039,MomentumCo,E-commerce,UK,London,2023-06-11,Growth,David Chen
+CUS0040,NorthStar,Healthcare,Australia,Sydney,2023-07-07,Enterprise,James Patel
+CUS0041,OmegaCloud,Media,Netherlands,Amsterdam,2024-04-06,Growth,Sarah Mitchell
+CUS0042,PivotPoint,Media,UK,London,2023-11-06,Pro,David Chen
+CUS0043,QuickInsights,SaaS,Singapore,Singapore,2023-04-24,Starter,Sarah Mitchell
+CUS0044,RiseAnalytics,Logistics,Singapore,Singapore,2024-01-16,Starter,James Patel
+CUS0045,ScaleUp,Consulting,Australia,Sydney,2022-07-14,Growth,David Chen
+CUS0046,TechVault,Consulting,Canada,Toronto,2022-10-13,Growth,Sarah Mitchell
+CUS0047,UniqueData,Fintech,Netherlands,Amsterdam,2024-04-07,Starter,Priya Sharma
+CUS0048,VantagePoint,E-commerce,USA,New York,2022-04-06,Growth,David Chen
+CUS0049,WarpSpeed,E-commerce,Netherlands,Amsterdam,2023-05-08,Pro,Sarah Mitchell
+CUS0050,ZeroToOne,SaaS,Canada,Toronto,2023-01-24,Pro,Emma Rodriguez
+CUS0051,Company 51,Media,Netherlands,Amsterdam,2022-10-20,Enterprise,James Patel
+CUS0052,Company 52,E-commerce,Australia,Sydney,2022-10-31,Starter,Priya Sharma
+CUS0053,Company 53,Logistics,USA,New York,2024-02-05,Starter,Sarah Mitchell
+CUS0054,Company 54,Healthcare,Netherlands,Amsterdam,2023-05-30,Starter,Priya Sharma
+CUS0055,Company 55,Healthcare,UK,London,2024-05-21,Starter,Priya Sharma
+CUS0056,Company 56,E-commerce,UK,London,2023-11-23,Pro,Sarah Mitchell
+CUS0057,Company 57,SaaS,Australia,Sydney,2023-08-16,Starter,David Chen
+CUS0058,Company 58,E-commerce,India,Bangalore,2022-09-25,Pro,James Patel
+CUS0059,Company 59,Healthcare,Germany,Berlin,2023-02-10,Growth,David Chen
+CUS0060,Company 60,Fintech,India,Bangalore,2024-02-09,Starter,David Chen
+CUS0061,Company 61,E-commerce,UK,London,2022-03-17,Growth,James Patel
+CUS0062,Company 62,Fintech,India,Bangalore,2024-06-21,Growth,Emma Rodriguez
+CUS0063,Company 63,Consulting,Germany,Berlin,2022-06-11,Growth,Priya Sharma
+CUS0064,Company 64,Education,USA,New York,2023-11-15,Starter,James Patel
+CUS0065,Company 65,Fintech,Germany,Berlin,2022-04-29,Growth,Emma Rodriguez
+CUS0066,Company 66,E-commerce,Germany,Berlin,2023-09-12,Pro,James Patel
+CUS0067,Company 67,Consulting,Germany,Berlin,2023-06-02,Growth,Sarah Mitchell
+CUS0068,Company 68,Media,UK,London,2023-10-12,Growth,Sarah Mitchell
+CUS0069,Company 69,Healthcare,USA,New York,2022-12-08,Growth,James Patel
+CUS0070,Company 70,Media,Netherlands,Amsterdam,2023-07-19,Starter,Sarah Mitchell
+CUS0071,Company 71,Healthcare,UK,London,2024-06-23,Starter,Emma Rodriguez
+CUS0072,Company 72,Healthcare,Canada,Toronto,2023-03-17,Starter,Emma Rodriguez
+CUS0073,Company 73,SaaS,India,Bangalore,2024-03-26,Pro,James Patel
+CUS0074,Company 74,Fintech,Australia,Sydney,2023-11-14,Pro,Priya Sharma
+CUS0075,Company 75,Healthcare,Singapore,Singapore,2023-09-28,Growth,James Patel
+CUS0076,Company 76,Media,Canada,Toronto,2024-06-21,Starter,James Patel
+CUS0077,Company 77,Media,India,Bangalore,2024-03-12,Growth,Emma Rodriguez
+CUS0078,Company 78,Fintech,Canada,Toronto,2024-03-17,Pro,Sarah Mitchell
+CUS0079,Company 79,E-commerce,Netherlands,Amsterdam,2022-08-16,Enterprise,Emma Rodriguez
+CUS0080,Company 80,E-commerce,Germany,Berlin,2024-04-20,Growth,Sarah Mitchell
+CUS0081,Company 81,Logistics,Australia,Sydney,2023-02-13,Growth,Sarah Mitchell
+CUS0082,Company 82,Media,Germany,Berlin,2022-12-26,Pro,Sarah Mitchell
+CUS0083,Company 83,Education,UK,London,2024-06-17,Growth,Priya Sharma
+CUS0084,Company 84,Fintech,Germany,Berlin,2022-02-09,Pro,Emma Rodriguez
+CUS0085,Company 85,Fintech,India,Bangalore,2023-03-23,Pro,Priya Sharma
+CUS0086,Company 86,SaaS,Australia,Sydney,2022-09-18,Pro,Sarah Mitchell
+CUS0087,Company 87,Media,Australia,Sydney,2023-01-08,Starter,Emma Rodriguez
+CUS0088,Company 88,Fintech,India,Bangalore,2023-11-11,Growth,Priya Sharma
+CUS0089,Company 89,Media,Germany,Berlin,2023-11-14,Pro,David Chen
+CUS0090,Company 90,Healthcare,Germany,Berlin,2023-07-22,Growth,David Chen
+CUS0091,Company 91,Healthcare,Singapore,Singapore,2023-11-25,Growth,David Chen
+CUS0092,Company 92,Education,USA,New York,2022-11-08,Growth,David Chen
+CUS0093,Company 93,Consulting,India,Bangalore,2023-04-22,Enterprise,James Patel
+CUS0094,Company 94,Healthcare,Netherlands,Amsterdam,2024-03-23,Starter,Emma Rodriguez
+CUS0095,Company 95,E-commerce,India,Bangalore,2022-04-06,Growth,James Patel
+CUS0096,Company 96,SaaS,Australia,Sydney,2022-05-31,Starter,James Patel
+CUS0097,Company 97,Fintech,Netherlands,Amsterdam,2023-09-18,Enterprise,David Chen
+CUS0098,Company 98,Media,Australia,Sydney,2024-01-06,Enterprise,David Chen
+CUS0099,Company 99,SaaS,Australia,Sydney,2022-06-01,Starter,David Chen
+CUS0100,Company 100,Consulting,Australia,Sydney,2022-06-30,Starter,Priya Sharma
