@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: saas_analytics
+    schema: main
+    description: "Raw SaaS data loaded via dbt seed"
+    tables:
+      - name: raw_customers
+        description: "100 SaaS company accounts"
+      - name: raw_subscriptions
+        description: "All subscriptions, active and historical"
+      - name: raw_subscription_events
+        description: "Every signup, upgrade, downgrade, churn and reactivation event"
+      - name: raw_invoices
+        description: "1,840 rows of monthly billing history"
+      - name: raw_plans
+        description: "4 plans with monthly and annual pricing"
+      - name: raw_users
+        description: "409 individual users across all accounts"

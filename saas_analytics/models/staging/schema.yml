@@ -1,0 +1,146 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Cleaned and renamed customers data"
+    columns:
+      - name: customer_id
+        description: "Unique identifier for each customer"
+        tests:
+          - unique
+          - not_null
+      - name: company_name
+        tests:
+          - not_null
+      - name: plan_type
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Starter', 'Growth', 'Pro', 'Enterprise']
+      - name: signup_date
+        tests:
+          - not_null
+
+  - name: stg_plans
+    description: "Cleaned and renamed plans data"
+    columns:
+      - name: plan_id
+        tests:
+          - unique
+          - not_null
+      - name: plan_name
+        tests:
+          - not_null
+      - name: plan_type
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['monthly', 'annual']
+      - name: price_monthly
+        tests:
+          - not_null
+
+  - name: stg_subscriptions
+    description: "Cleaned and renamed subscriptions data"
+    columns:
+      - name: subscription_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+              config:
+                severity: warn
+      - name: mrr_amount
+        tests:
+          - not_null
+      - name: status
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['active', 'churned', 'upgraded', 'downgraded']
+
+  - name: stg_subscription_events
+    description: "Cleaned and renamed subscription events data"
+    columns:
+      - name: event_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+              config:
+                severity: warn
+      - name: event_type
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['signup', 'upgrade', 'downgrade', 'churn', 'reactivation']
+      - name: event_date
+        tests:
+          - not_null
+
+  - name: stg_invoices
+    description: "Cleaned and renamed invoices data"
+    columns:
+      - name: invoice_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+              config:
+                severity: warn
+      - name: amount_due
+        tests:
+          - not_null
+      - name: payment_status
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['paid', 'failed', 'pending']
+
+  - name: stg_users
+    description: "Cleaned and renamed users data"
+    columns:
+      - name: user_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+              config:
+                severity: warn
+      - name: role
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['admin', 'member', 'viewer']
+      - name: status
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['active', 'inactive']
